@@ -18,8 +18,8 @@
   </head>
   <body class="page">
     <header class="header card">
-      <h1>&lt;/HTML&gt;</h1>
-      <h2>закрывающий тег</h2>
+      <a class="header-logo">&lt;/HTML&gt;</a>
+      <h1>закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
@@ -48,9 +48,9 @@
     </header>
     <main class="content">
       <article class="card content__card">
-        <h3>Фритрек и нулевой спринт: Подготовка к работе</h3>
-        <div class="card-images card-images-filter-01">
-          <p class="card-images-text">&lt;aspiration&gt;</p>
+        <h2>Фритрек и нулевой спринт: Подготовка к работе</h2>
+        <div class="card-images card-images-filter__mix">
+          <span class="card-images-text">&lt;aspiration&gt;</span>
           <picture>
             <source srcset="./images/image-1.avif" type="image/avif" />
             <img
@@ -72,9 +72,10 @@
             знания могут повлиять на ваше будущее.
           </p>
           <p class="card-text">Очень хотелось быстрее начать изучать новое.</p>
-          <div class="button">
-            <button class="card__icon-button">
+          <div class="button-wrapper">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="39"
@@ -105,7 +106,7 @@
                 />
               </svg>
             </button>
-            <button class="button card_button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -113,9 +114,9 @@
       </article>
 
       <article class="card content__card">
-        <h3>1 спринт: Я — чистый лист</h3>
-        <div class="card-images card-images-filter-02">
-          <p class="card-images-text">&lt;clean&gt;</p>
+        <h2>1 спринт: Я — чистый лист</h2>
+        <div class="card-images card-images-filter__sepia">
+          <span class="card-images-text">&lt;clean&gt;</span>
           <picture>
             <source srcset="./images/image-2.avif" type="image/avif" />
             <img
@@ -141,9 +142,10 @@
           <p class="card-text">
             Старах чистого листа, непонимание с чего и как начать...
           </p>
-          <div class="button">
-            <button class="card__icon-button">
+          <div class="button-wrapper">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="39"
@@ -174,7 +176,7 @@
                 />
               </svg>
             </button>
-            <button class="button card_button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -182,9 +184,9 @@
       </article>
 
       <article class="card content__card">
-        <h3>1 спринт: А если не получится?</h3>
-        <div class="card-images card-images-filter-03">
-          <p class="card-images-text">&lt;COOL&gt;</p>
+        <h2>1 спринт: А если не получится?</h2>
+        <div class="card-images card-images-filter__grayscale">
+          <span class="card-images-text">&lt;COOL&gt;</span>
           <picture>
             <source srcset="./images/image-3.avif" type="image/avif" />
             <img
@@ -208,9 +210,10 @@
           <p class="card-text">
             Все получилось и это круто, интересно и захватывающе.
           </p>
-          <div class="button">
-            <button class="card__icon-button">
+          <div class="button-wrapper">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="39"
@@ -241,7 +244,7 @@
                 />
               </svg>
             </button>
-            <button class="button card_button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -249,9 +252,9 @@
       </article>
 
       <article class="card content__card">
-        <h3>2 спринт: Погоня за идеалом</h3>
-        <div class="card-images card-images-filter-04">
-          <p class="card-images-text">&lt;desigions&gt;</p>
+        <h2>2 спринт: Погоня за идеалом</h2>
+        <div class="card-images card-images-filter__saturate">
+          <span class="card-images-text">&lt;desigions&gt;</span>
           <picture>
             <source srcset="./images/image-4.avif" type="image/avif" />
             <img
@@ -275,11 +278,12 @@
             старались просто сделать.
           </p>
           <p class="card-text">
-            Время когда кажется что ты освоил так мало, но уже умеешь так много.
+            Время когда освоил ещё так мало, но уже умеешь так много.
           </p>
-          <div class="button">
-            <button class="card__icon-button">
+          <div class="button-wrapper">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="39"
@@ -310,7 +314,7 @@
                 />
               </svg>
             </button>
-            <button class="button card_button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -318,9 +322,9 @@
       </article>
 
       <article class="card content__card">
-        <h3>2 спринт: О тех, кто рядом</h3>
-        <div class="card-images card-images-filter-05">
-          <p class="card-images-text">care</p>
+        <h2>2 спринт: О тех, кто рядом</h2>
+        <div class="card-images card-images-filter__hue-rotate">
+          <span class="card-images-text">care</span>
           <picture>
             <source srcset="./images/image-5.avif" type="image/avif" />
             <img
@@ -345,12 +349,12 @@
             правда ли?
           </p>
           <p class="card-text">
-            Когда ты не один и вокруг тебя поддержка даже самое сложное кажется
-            выполнимым!
+            Когда ты не один - даже самое сложное кажется выполнимым!
           </p>
-          <div class="button">
-            <button class="card__icon-button">
+          <div class="button-wrapper">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="39"
@@ -381,7 +385,7 @@
                 />
               </svg>
             </button>
-            <button class="button card_button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -389,9 +393,9 @@
       </article>
 
       <article class="card content__card">
-        <h3>3 спринт: Обходные стратегии</h3>
-        <div class="card-images card-images-filter-06">
-          <p class="card-images-text">&lt;support&gt;</p>
+        <h2>3 спринт: Обходные стратегии</h2>
+        <div class="card-images card-images-filter__contrast">
+          <span class="card-images-text">&lt;support&gt;</span>
           <picture>
             <source srcset="./images/image-6.avif" type="image/avif" />
             <img
@@ -413,12 +417,12 @@
             время посмотреть на задачу под другим углом.
           </p>
           <p class="card-text">
-            Кажется что все конечно, ничего не получается, закрываю ноутбук и
-            иду отдыхать через 2 часа возникает новое решение!
+            Когда ничего не получается - время рефлексии и отдыха!
           </p>
-          <div class="button">
-            <button class="card__icon-button">
+          <div class="button-wrapper">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="39"
@@ -449,7 +453,7 @@
                 />
               </svg>
             </button>
-            <button class="button card_button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -457,9 +461,9 @@
       </article>
 
       <article class="card content__card">
-        <h3>3 спринт: Когда опускаются руки</h3>
-        <div class="card-images card-images-filter-07">
-          <p class="card-images-text">&lt;reflection&gt;</p>
+        <h2>3 спринт: Когда опускаются руки</h2>
+        <div class="card-images card-images-filter__brightness">
+          <span class="card-images-text">&lt;reflection&gt;</span>
           <picture>
             <source srcset="./images/image-7.avif" type="image/avif" />
             <img
@@ -482,13 +486,11 @@
             В такие моменты очень нужна концентрация. Вспомните, откуда вы её
             черпали.
           </p>
-          <p class="card-text">
-            Вдохновение приходит когда знаешь куда идешь и какого результата
-            нужно добиться.
-          </p>
-          <div class="button">
-            <button class="card__icon-button">
+          <p class="card-text">Вдохновение приходит когда есть цель.</p>
+          <div class="button-wrapper">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="39"
@@ -519,7 +521,7 @@
                 />
               </svg>
             </button>
-            <button class="button card_button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -527,9 +529,9 @@
       </article>
 
       <article class="card content__card">
-        <h3>«Сейчас я здесь»</h3>
-        <div class="card-images card-images-filter-08">
-          <p class="card-images-text">&lt;experience&gt;</p>
+        <h2>«Сейчас я здесь»</h2>
+        <div class="card-images card-images-filter__opacity">
+          <span class="card-images-text">&lt;experience&gt;</span>
           <picture>
             <source srcset="./images/image-8.avif" type="image/avif" />
             <img
@@ -554,12 +556,13 @@
             и есть результат.
           </p>
           <p class="card-text">
-            Впереди еще так много всего для изучения, и кажется что этого всего
-            никогда не освоить
+            Впереди еще так много материала для изучения, и кажется что этого
+            всего никогда не освоить.
           </p>
-          <div class="button">
-            <button class="card__icon-button">
+          <div class="button-wrapper">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="39"
@@ -590,7 +593,7 @@
                 />
               </svg>
             </button>
-            <button class="button card_button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -598,10 +601,10 @@
       </article>
 
       <button
-        class="button card_button button-save"
+        class="button save__button"
         aria-label="предупреждение"
         type="button"
-        onclick="window['floppy-dialog'].showModal().close()"
+        onclick="window['floppy-dialog'].showModal()"
         aria-controls="floppy-dialog"
       >
         <svg viewBox="0 0 21 21">
@@ -618,11 +621,13 @@
         </svg>
         <span class="button__text"> Вставьте дискету, чтобы продолжить </span>
       </div>
-      <form method="dialog">
-        <button class="button card_button card__like-button">
-          <span class="button__text">ok</span>
-        </button>
-      </form>
+      <button
+        class="button modal__button"
+        type="button"
+        onclick="window['floppy-dialog'].close()"
+      >
+        <p class="button__text">ok</p>
+      </button>
     </dialog>
     <script src="./scripts/like.js"></script>
   </body>

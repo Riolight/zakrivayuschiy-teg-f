@@ -1,13 +1,13 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --main-font: "Inter-Variable";
-  --accent-font: "PressStart2P-Regular";
+  --accent-font: "PressStart2P";
   --main-font-weight: 400;
   --accent-font-weight: 700;
   --background-color: #ffffff;
   --accent-color: #000000;
   --button-color: #fff;
-  --heart-color: #FF0000;
+  --heart-color: #ff0000;
   --img-color: #636363;
   --card-size: clamp(100%, 10vw, 70%);
   --background-image: repeating-linear-gradient(
@@ -24,9 +24,5 @@
       transparent 2px,
       transparent 4px
     ),
-    linear-gradient(
-      to bottom,
-      #e7e7e7 0.01%,  
-      #1a1a1a
-    );
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
 }

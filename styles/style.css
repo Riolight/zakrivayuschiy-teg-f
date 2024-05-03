@@ -126,18 +126,6 @@
   }
 }
 
-@keyframes arrow {
-  from {
-    translate: 0;
-  }
-  50% {
-    translate: 4px;
-  }
-  100% {
-    translate: 0;
-  }
-}
-
 .card img {
   inline-size: var(--card-size);
   outline: 2px solid var(--accent-color);
@@ -400,32 +388,8 @@ dialog::backdrop {
   opacity: 0;
 }
 
-@keyframes heart {
-  from {
-    scale: 1;
-  }
-  50% {
-    scale: 1.5;
-  }
-  100% {
-    scale: 1;
-  }
-}
-
 .like-icon.is-liked .sparks {
   animation: sparks 0.3s ease-in 0.3s;
-}
-
-@keyframes sparks {
-  from {
-    opacity: 0;
-  }
-  50% {
-    opacity: 100%;
-  }
-  100% {
-    opacity: 0;
-  }
 }
 
 /* фильтры для картинок */

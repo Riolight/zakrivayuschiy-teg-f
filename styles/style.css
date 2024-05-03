@@ -443,10 +443,6 @@ dialog::backdrop {
 }
 
 @media (width <= 375px) {
-  .header h2 {
-    margin-block-start: 120px;
-  }
-
   .header h1 {
     line-height: 16px;
   }

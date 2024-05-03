@@ -116,13 +116,17 @@
 .theme-menu__button:disabled::before {
   content: "▶";
   position: absolute;
-  inset-inline-end: 50%;
-  margin-inline-end: 40px;
+  inset-inline-start: 0;
+  inset-block-start: 2px;
+}
+
+.theme-menu__item {
+  position: relative;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .theme-menu__button:disabled::before {
-    animation: arrow 0.5s ease-in-out infinite;
+    animation: arrow 0.5s ease-in-out infinite alternate;
   }
 }
 

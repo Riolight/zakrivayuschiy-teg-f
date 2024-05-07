@@ -162,7 +162,7 @@
     -1px 1px var(--background-color),
     1px 1px var(--background-color),
     1px -1px var(--background-color);
-  transition: all 1s;
+  transition: opacity 1s;
 }
 
 @supports (
